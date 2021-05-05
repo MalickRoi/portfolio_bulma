@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofio Bulma</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <style>
+        body{
+            height: 100vh   ;
+        }
+    </style>
+</head>
+<body>
+    <!-- barre de navigation fixée -->
+    <nav class="navbar is-fixed-top">
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <img src="ressources/html-coding.png" alt="logo">
+            </a>
+            <div class="navbar-burger burger" id="btnNav" data-target="menuContent">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="navbar-menu" id="menuContent">
+            <div class="navbar-start">
+                <a href="#home" class="navbar-item">
+                    Accueil
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <a href="#about" class="navbar-item">A propos</a>
+                <a href="#real" class="navbar-item">Mes réalisations</a>
+                <a href="#contact" class="navbar-item">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section page d'accueil -->
+    <div class="columns is-desktop" id="home">
+
+        <div class="column is-6-desktop">
+            <section class="hero is-fullheight">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <h2 class="subtitle">Bonjour</h2>
+                        <h1 class="title is-1">Je suis Thierno Malik DIALLO</h1>
+                        <h2 class="subtitle is-2">Un dev Front-end de plus</h2>
+                        <button class="button is-primary is-outlined is-rounded is-medium">Contactez-moi !</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="column is-6-desktop has-text-centered">
+            <img src="ressources/homeImg.jpg" alt="image accueil">
+        </div>
+    </div>
+
+    <!-- section à propos -->
+    <section class="container" id="about">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Qui suis-je ?</h2>
+
+        <figure class="image container is-128x128">
+            <img src="ressources/profile.jpg" alt="image profil" class="is-rounded is-centered">
+        </figure>
+        <br>
+        <div class="columns is-centered">
+            <p class="column is-6 has-text-justified">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, eius cumque totam similique culpa quasi dicta consectetur ducimus officiis iure voluptatem saepe fugit accusamus voluptatum, dolores aut dolore minima dolorum, aspernatur optio veniam quia! Dignissimos itaque mollitia minima fugit eius voluptatibus iusto quam neque excepturi? Nihil possimus, in iste atque repellendus nulla ratione nam sequi qui blanditiis a tempore ut eveniet quis voluptate quidem numquam porro molestiae, suscipit, sit perspiciatis!
+            </p>
+        </div>
+    </section>
+
+    <br><br>
+    
+    <!-- section mes projets -->
+    <hr>
+    <section class="container" id='real'>
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Mes réalisations</h2>
+
+        <div class="columns is-centered is-multiline is-mobile">
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/Sass.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/React.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/bulma-banner.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/node.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/JavaScript.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column is-8-mobile is-4-mobile is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/AngularJS_logo.svg.png" alt="logo carte">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Thierno Malik DIALLO</p>
+                                <p class="subtitle is-6">@malickroi</p>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, accusantium.
+                            <br>
+                            <a href="#">@bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2021-5-5">03:29 - 05 05 2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <br><br>
+
+    <!-- Partie contact -->
+    <hr>
+    <br><br>
+
+    <section class="container" id="contact">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Contactez-moi</h2>
+
+        <div class="field">
+            <label class="label">Nom</label>
+            <input type="text" class="input" placeholder="Entrez votre nom">
+        </div>
+
+        <div class="field">
+            <label class="label">Prénom</label>
+            <div class="control has-icons-left">
+                <input type="text" class="input" placeholder="Entrez votre prénom">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left">
+                <input type="email" class="input" placeholder="Email: eg. email@email.com">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Message</label>
+            <textarea placeholder="Votre message ..." class="textarea"></textarea>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-primary is-outlined">Envoyer</button>
+            </div>
+            <div class="control">
+                <button class="button is-text">Remettre à zéro</button>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Tous droits reservés &copy;</p>
+        </div>
+    </footer>
+
+    <script>
+        var btn = document.querySelector('#btnNav');
+        var menu = document.querySelector('#menuContent');
+
+        btn.addEventListener('click', function(){
+            menu.classList.toggle('is-active')
+        })
+    </script>
+</body>
+</html>
